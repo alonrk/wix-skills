@@ -1,0 +1,40 @@
+{
+  "operations": [
+    {
+      "id": "wix-site-properties.get-site-properties",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/site-properties/v4/properties",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-management/site-properties/properties/get-site-properties"
+    },
+    {
+      "id": "wix-site-properties.update-business-profile",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/site-properties/v4/properties/business-profile",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-management/site-properties/properties/update-business-profile"
+    },
+    {
+      "id": "wix-site-properties.update-business-contact",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/site-properties/v4/properties/business-contact",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-management/site-properties/properties/update-business-contact"
+    },
+    {
+      "id": "wix-site-properties.update-business-schedule",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/site-properties/v4/properties/business-schedule",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-management/site-properties/properties/update-business-schedule"
+    }
+  ]
+}

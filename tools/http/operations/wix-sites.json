@@ -1,0 +1,49 @@
+{
+  "operations": [
+    {
+      "id": "wix-sites.query-sites",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/site-list/v2/sites/query",
+      "authModes": ["oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/account-level/sites/sites/query-sites"
+    },
+    {
+      "id": "wix-sites.count-sites",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/site-list/v2/sites/count",
+      "authModes": ["oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/account-level/sites/sites/count-sites"
+    },
+    {
+      "id": "wix-sites.search-templates",
+      "method": "GET",
+      "urlTemplate": "https://www.wix.com/_api/template-cms-view-service/view/v2/templates/search?language=en&limit={limit}&offset={offset}&bookType={bookType}&query={query}",
+      "authModes": ["oauth", "api_key"],
+      "requiredParams": ["limit", "offset", "bookType", "query"],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/kb-only/MCP_REST_RECIPES_KB_ID/TRAIN_create_a_new_site_from_template"
+    },
+    {
+      "id": "wix-sites.create-site-from-template",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/msm/v1/meta-site/create-from-template",
+      "authModes": ["oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/picasso/wix-ai-docs/recipes-v2/manage/sites/recipe-create-site-from-template"
+    },
+    {
+      "id": "wix-sites.publish-site",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/site-publisher/v1/site/publish",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/picasso/wix-ai-docs/recipes-v2/manage/sites/recipe-create-site-from-template"
+    }
+  ]
+}

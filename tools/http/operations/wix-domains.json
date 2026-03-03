@@ -1,0 +1,22 @@
+{
+  "operations": [
+    {
+      "id": "wix-domains.suggest-domains",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/domain-search/v2/suggest-domains?query={query}&paging.limit={limit}&tlds={tld}",
+      "authModes": ["api_key"],
+      "requiredParams": ["query", "limit", "tld"],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/account-level/domains/domain-search/suggestion-v2/suggest-domains"
+    },
+    {
+      "id": "wix-domains.check-availability",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/domain-search/v2/check-domain-availability?domain={domain}",
+      "authModes": ["api_key"],
+      "requiredParams": ["domain"],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/account-level/domains/domain-search/availability-v2/check-domain-availability"
+    }
+  ]
+}
