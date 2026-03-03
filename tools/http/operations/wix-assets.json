@@ -1,0 +1,22 @@
+{
+  "operations": [
+    {
+      "id": "wix-assets.list-files",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/site-media/v1/files",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/assets/media/media-manager/files/list-files"
+    },
+    {
+      "id": "wix-assets.import-file",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/site-media/v1/files/import",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/assets/media/media-manager/files/import-file"
+    }
+  ]
+}

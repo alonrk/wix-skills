@@ -57,6 +57,18 @@ function resolveAuthContext(options = {}) {
   const allowedModes = normalizeAllowedModes(options.allowedModes);
   const baseHeaders = buildBaseHeaders();
 
+  if (allowedModes.includes("none")) {
+    return {
+      mode: "none",
+      headers: {
+        ...baseHeaders,
+      },
+      debug: {
+        source: "none",
+      },
+    };
+  }
+
   const signedInstance = readEnv("WIX_SIGNED_INSTANCE") || readEnv("WIX_INSTANCE");
   if (allowedModes.includes("signed_instance") && signedInstance) {
     return {

@@ -13,16 +13,14 @@ description: Gathers and validates Wix account/site context before management op
 
 ## Execution Flow
 
-1. Call `WixREADME` first.
-2. Resolve target site:
+1. Resolve target site:
    - Use `ListWixSites` (optionally with `nameSearch`).
    - Confirm exact target site when multiple matches exist.
-3. Gather prerequisite state only as needed:
+2. Gather prerequisite state only as needed:
    - Use integration playbooks in `tools/integrations/` to select known endpoint operations.
    - Execute operations via `node tools/http/wix-request.js --operation <id>`.
-   - If operation is missing in playbooks, use docs fallback (`SearchWixRESTDocumentation` + `ReadFullDocsArticle`).
-   - Use MCP only when direct auth/coverage is insufficient.
-4. Return a compact context block:
+   - If operation is missing in playbooks, use Wix REST docs to define it and add it to the registry.
+3. Return a compact context block:
    - `siteId`
    - selected site name
    - required app status
@@ -43,5 +41,6 @@ description: Gathers and validates Wix account/site context before management op
 
 ## Integration Playbooks
 
+- `tools/integrations/wix-rest-universal.md`
 - `tools/integrations/wix-sites.md`
 - `tools/integrations/wix-site-properties.md`

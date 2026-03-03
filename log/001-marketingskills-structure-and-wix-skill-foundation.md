@@ -12,7 +12,7 @@ Implement a marketingskills-inspired repository layout for Wix Agent Skills:
 ## Decisions
 
 - Use the Agent Skills frontmatter format (`name`, `description`) with optional metadata only where useful.
-- Encode Wix MCP usage as recipe-first, with docs/example/schema fallback flow.
+- Encode Wix REST execution as docs-first, with schema-backed fallback flow.
 - Keep each skill concise and procedural; avoid mixing unrelated Wix domains in one skill.
 
 ## Execution Notes

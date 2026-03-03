@@ -25,7 +25,7 @@
       "authModes": ["oauth", "api_key"],
       "requiredParams": ["limit", "offset", "bookType", "query"],
       "bodyRequired": false,
-      "sourceDocUrl": "https://dev.wix.com/docs/kb-only/MCP_REST_RECIPES_KB_ID/TRAIN_create_a_new_site_from_template"
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/account-level/sites/sites/introduction"
     },
     {
       "id": "wix-sites.create-site-from-template",
@@ -34,7 +34,7 @@
       "authModes": ["oauth", "api_key"],
       "requiredParams": [],
       "bodyRequired": true,
-      "sourceDocUrl": "https://dev.wix.com/docs/picasso/wix-ai-docs/recipes-v2/manage/sites/recipe-create-site-from-template"
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/account-level/sites/sites/introduction"
     },
     {
       "id": "wix-sites.publish-site",
@@ -43,7 +43,7 @@
       "authModes": ["signed_instance", "oauth", "api_key"],
       "requiredParams": [],
       "bodyRequired": false,
-      "sourceDocUrl": "https://dev.wix.com/docs/picasso/wix-ai-docs/recipes-v2/manage/sites/recipe-create-site-from-template"
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/account-level/sites/sites/introduction"
     }
   ]
 }

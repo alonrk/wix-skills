@@ -1,0 +1,22 @@
+{
+  "operations": [
+    {
+      "id": "wix-site-api.query-site-contributors",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/roles-management/v2/contributors/query",
+      "authModes": ["oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/account-level/user-management/contributors/query-site-contributors"
+    },
+    {
+      "id": "wix-site-api.get-site-properties",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/site-properties/v4/properties",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-management/site-properties/properties/get-site-properties"
+    }
+  ]
+}

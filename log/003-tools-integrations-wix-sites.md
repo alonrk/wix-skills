@@ -41,7 +41,7 @@ Implement a `tools/` layer inspired by marketingskills so agents can discover Wi
 - Docs sanity checks completed:
   - `tools/REGISTRY.md` guide links match integration filenames.
   - Integration files present: 3 (`wix-sites`, `wix-domains`, `wix-site-properties`).
-  - Registry table renders with expected columns (category, API, MCP, CLI, SDK, guide).
+  - Registry table renders with expected columns (category, API, CLI, SDK, guide).
 
 ## Follow-Up
 

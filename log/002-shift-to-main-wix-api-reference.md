@@ -2,17 +2,16 @@
 
 ## Plan
 
-Refactor existing skills so they are anchored in main Wix REST API documentation (`/docs/api-reference/...`) instead of Picasso recipe pages.
+Refactor existing skills so they are anchored in main Wix REST API documentation (`/docs/api-reference/...`) instead of recipe pages.
 
 ## Decisions
 
 - Main API reference pages are the primary source of truth.
-- Picasso recipe pages remain optional accelerators only.
+- Recipe pages remain optional accelerators only.
 - Skill execution flow now prefers:
-  1. `WixREADME` for context and available recipe map.
-  2. `SearchWixRESTDocumentation` / `BrowseWixRESTDocsMenu` for main API method selection.
-  3. `ReadFullDocsArticle` and `ReadFullDocsMethodSchema` for concrete schema/method details.
-  4. `CallWixSiteAPI` / `ManageWixSite` with docs-derived endpoint/body only.
+  1. Main API docs for method selection.
+  2. Method article + schema confirmation for concrete request shape.
+  3. Direct REST execution with docs-derived endpoint/body only.
 
 ## Execution Notes
 
@@ -29,8 +28,8 @@ Refactor existing skills so they are anchored in main Wix REST API documentation
   - `skills/wix-stores-management/SKILL.md`
   - `skills/wix-bookings-management/SKILL.md`
   - `skills/wix-cms-management/SKILL.md`
-- Replaced Picasso links in primary sections with `dev.wix.com/docs/api-reference/...` links.
-- Kept Picasso links only in clearly labeled optional accelerator sections.
+- Replaced recipe links in primary sections with `dev.wix.com/docs/api-reference/...` links.
+- Kept non-primary links clearly labeled optional accelerators.
 
 ## Validation Notes
 

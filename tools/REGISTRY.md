@@ -1,22 +1,41 @@
 # Wix Tools Registry
 
-Operational index for direct Wix REST execution. Choose an integration guide and run operation playbooks with `tools/http/wix-request.js`.
+Operational index for Wix REST API coverage across all major domains.
 
 ## How Agents Use This
 
-1. Identify intent and pick one tool below.
-2. Open its integration playbook in `tools/integrations/`.
-3. Execute the matching operation id with:
-   - `node tools/http/wix-request.js --operation <id> --params '{...}' --body '{...}'`
-4. Use MCP only as fallback when operation coverage or auth constraints block direct REST.
+1. Identify the API family from user intent.
+2. Open the matching guide under `tools/integrations/`.
+3. For known operations, run direct REST via `tools/http/wix-request.js`.
+4. For uncovered operations, discover method details in Wix REST docs, then add a new operation card and registry entry.
 
 ## Tool Index
 
-| Tool | Category | API | MCP | CLI | SDK | Guide |
-| --- | --- | :---: | :---: | :---: | :---: | --- |
-| wix-sites | Sites | ✓ | ✓ | - | ✓ | [wix-sites.md](integrations/wix-sites.md) |
-| wix-domains | Domains | ✓ | ✓ | - | ✓ | [wix-domains.md](integrations/wix-domains.md) |
-| wix-site-properties | Business Management | ✓ | ✓ | - | ✓ | [wix-site-properties.md](integrations/wix-site-properties.md) |
+| Tool | Category | API | CLI | SDK | Guide |
+| --- | --- | :---: | :---: | :---: | --- |
+| wix-rest-universal | Cross-domain REST orchestration | ✓ | ✓ | ✓ | [wix-rest-universal.md](integrations/wix-rest-universal.md) |
+| wix-account-level | Account-level APIs | ✓ | ✓ | ✓ | [wix-account-level.md](integrations/wix-account-level.md) |
+| wix-business-management | Business Management APIs | ✓ | ✓ | ✓ | [wix-business-management.md](integrations/wix-business-management.md) |
+| wix-business-solutions | Business Solutions APIs | ✓ | ✓ | ✓ | [wix-business-solutions.md](integrations/wix-business-solutions.md) |
+| wix-crm | CRM APIs | ✓ | ✓ | ✓ | [wix-crm.md](integrations/wix-crm.md) |
+| wix-assets | Assets APIs | ✓ | ✓ | ✓ | [wix-assets.md](integrations/wix-assets.md) |
+| wix-app-management | App Management APIs | ✓ | ✓ | ✓ | [wix-app-management.md](integrations/wix-app-management.md) |
+| wix-site-api | Site APIs | ✓ | ✓ | ✓ | [wix-site-api.md](integrations/wix-site-api.md) |
+| wix-rest-articles | Auth/query/platform guidance | ✓ | - | ✓ | [wix-rest-articles.md](integrations/wix-rest-articles.md) |
+| wix-sites | Sites operations | ✓ | ✓ | ✓ | [wix-sites.md](integrations/wix-sites.md) |
+| wix-domains | Domains operations | ✓ | ✓ | ✓ | [wix-domains.md](integrations/wix-domains.md) |
+| wix-site-properties | Site Properties operations | ✓ | ✓ | ✓ | [wix-site-properties.md](integrations/wix-site-properties.md) |
+
+## Covered Top-Level Wix REST Families
+
+- Articles
+- App Management
+- Business Solutions
+- Assets
+- CRM
+- Business Management
+- Account Level
+- Site
 
 ## Direct Runtime
 
@@ -26,32 +45,18 @@ Operational index for direct Wix REST execution. Choose an integration guide and
   - `tools/http/operations/wix-sites.json`
   - `tools/http/operations/wix-domains.json`
   - `tools/http/operations/wix-site-properties.json`
+  - `tools/http/operations/wix-rest-universal.json`
+  - `tools/http/operations/wix-account-level.json`
+  - `tools/http/operations/wix-business-management.json`
+  - `tools/http/operations/wix-business-solutions.json`
+  - `tools/http/operations/wix-crm.json`
+  - `tools/http/operations/wix-assets.json`
+  - `tools/http/operations/wix-app-management.json`
+  - `tools/http/operations/wix-site-api.json`
+  - `tools/http/operations/wix-rest-articles.json`
 
-## Operation Coverage
+## Selection Rules
 
-### wix-sites
-
-- Query sites
-- Count sites
-- Search templates
-- Create site from template
-- Publish site
-
-### wix-domains
-
-- Suggest domains
-- Check domain availability
-
-### wix-site-properties
-
-- Get site properties snapshot
-- Update business profile
-- Update business contact
-- Update business schedule
-
-## Tool Selection Rules
-
-- Use `wix-sites` for account-level site inventory and site lifecycle operations.
-- Use `wix-domains` for domain discovery and availability checks.
-- Use `wix-site-properties` for business profile/contact/schedule reads and writes.
-- If no `siteId` is available for site-level operations, resolve it first with `skills/wix-project-context`.
+- Start with `wix-rest-universal` when intent spans multiple domains.
+- Use domain guides to pick the right API family and endpoint discovery route.
+- If no `siteId` is available for site-level operations, run `skills/wix-project-context` first.

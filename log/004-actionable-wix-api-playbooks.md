@@ -6,7 +6,7 @@ Convert `tools/integrations` from link-based references into executable playbook
 - concrete REST endpoints
 - HTTP methods
 - required request/query fields
-- MCP tool mapping (`ManageWixSite`, `CallWixSiteAPI`)
+- direct REST execution mapping (`tools/http/wix-request.js`)
 - copyable call templates and operation steps
 
 Also update skills so they explicitly execute actions from these playbooks.
@@ -19,7 +19,7 @@ Also update skills so they explicitly execute actions from these playbooks.
 
 ## Execution Notes
 
-- Created actionable playbooks with concrete endpoints and MCP templates:
+- Created actionable playbooks with concrete endpoints and executable templates:
   - `tools/integrations/wix-sites.md`
   - `tools/integrations/wix-domains.md`
   - `tools/integrations/wix-site-properties.md`
@@ -39,7 +39,7 @@ Also update skills so they explicitly execute actions from these playbooks.
 - Result: `Validation passed.`
 - Sanity checks:
   - `tools/REGISTRY.md` operation coverage matches available integration files.
-  - Integration files include endpoint + method + MCP template sections.
+  - Integration files include endpoint + method + execution template sections.
 
 ## Follow-Up
 

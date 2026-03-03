@@ -20,13 +20,10 @@ description: Describe what this Wix skill does and when to use it.
 
 ## Execution Flow
 
-1. Call `WixREADME` first.
-2. Discover the main API method with `SearchWixRESTDocumentation` or `BrowseWixRESTDocsMenu`.
-3. Read method article with `ReadFullDocsArticle`.
-4. Use method code examples and endpoint URL from main API docs.
-5. If still unclear, use `ReadFullDocsMethodSchema`.
-6. Execute with `CallWixSiteAPI` using only docs/schema-derived fields.
-7. Optionally consult recipe pages from `WixREADME` for orchestration patterns and edge cases.
+1. Discover the main API method in Wix REST API reference.
+2. Confirm method endpoint and request schema from method docs.
+3. Add or select operation id in `tools/http/operations/`.
+4. Execute with `node tools/http/wix-request.js --operation <id> --params '{...}' --body '{...}'`.
 
 ## Guardrails
 
@@ -37,13 +34,12 @@ description: Describe what this Wix skill does and when to use it.
 ## Common Errors and Handling
 
 - Missing app installed:
-  - Install relevant Wix app using documented recipe and retry.
+  - Install relevant Wix app and retry.
 - `WDE0110: Wix Code not enabled`:
-  - Enable/install Wix Code per platform recipe and retry.
+  - Enable/install Wix Code and retry.
 - Permissions/auth errors:
   - Return actionable remediation and stop retry loops.
 
 ## Sources
 
-- Primary recipe URL(s): <url>
 - Method docs URL(s): <url>

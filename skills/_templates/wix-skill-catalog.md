@@ -9,3 +9,4 @@ This file tracks source-to-skill mapping before authoring or updating a skill.
 | wix-bookings-management | services, staff, hours | https://dev.wix.com/docs/api-reference/business-solutions/bookings/services/services-v2/create-service | Bookings Services, Staff, Calendar Events | Bookings app installed |
 | wix-cms-management | collection schema and data | https://dev.wix.com/docs/api-reference/business-solutions/cms/data-items/introduction | Wix Data items, collections, references | CMS permissions/scopes |
 | wix-project-context | collect account/site IDs and prerequisites | https://dev.wix.com/docs/api-reference/business-management/app-installation/get-installed-apps | sites, apps, prerequisites | none |
+| wix-rest-api-management | cross-domain REST operations and unknown domain requests | https://dev.wix.com/docs/api-reference | all top-level wix rest families | use for broad/unclassified requests |

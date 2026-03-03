@@ -7,9 +7,8 @@ Actionable playbook for reading and updating site business properties via direct
 | Integration | Available | Notes |
 | --- | --- | --- |
 | API | ✓ | Site Properties v4 endpoints |
-| MCP | ✓ | Fallback only |
 | CLI | - | Not implemented |
-| SDK | ✓ | Optional outside MCP |
+| SDK | ✓ | Optional |
 
 ## Auth Modes
 
@@ -127,10 +126,6 @@ node tools/http/wix-request.js --operation wix-site-properties.update-business-c
 ```bash
 node tools/http/wix-request.js --operation wix-site-properties.update-business-schedule --body '{"businessSchedule":{"periods":[{"openDay":"MONDAY","openTime":"10:00","closeDay":"MONDAY","closeTime":"18:00"}],"specialHourPeriod":[]}}'
 ```
-
-## MCP Fallback (Last Resort)
-
-If direct REST fails due to identity or policy constraints, use `CallWixSiteAPI` for equivalent endpoint and body.
 
 ## Guardrails
 

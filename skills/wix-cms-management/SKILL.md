@@ -13,10 +13,9 @@ description: Manages Wix CMS collections, schema, references, and data item CRUD
 
 ## Primary Flow (Main API Reference First)
 
-1. Call `WixREADME`.
-2. Locate CMS methods via `SearchWixRESTDocumentation` or `BrowseWixRESTDocsMenu`.
-3. Read method docs with `ReadFullDocsArticle`.
-4. Execute with `CallWixSiteAPI` using docs-defined endpoint/body.
+1. Locate CMS methods in Wix REST API reference.
+2. Add or select operation id in `tools/http/operations/`.
+3. Execute with `node tools/http/wix-request.js --operation <id> --params '{...}' --body '{...}'`.
 
 ## Main API Docs Targets
 
@@ -32,12 +31,6 @@ description: Manages Wix CMS collections, schema, references, and data item CRUD
 - Error catalog:
   - https://dev.wix.com/docs/api-reference/business-solutions/cms/wix-data-error-codes
 
-## Optional Recipe Accelerators
-
-- https://dev.wix.com/docs/picasso/wix-ai-docs/recipes-v2/manage/cms/recipe-cms-data-items-crud
-- https://dev.wix.com/docs/picasso/wix-ai-docs/recipes-v2/manage/cms/recipe-cms-schema-management
-- https://dev.wix.com/docs/picasso/wix-ai-docs/recipes-v2/manage/cms/recipe-cms-references-relationships
-
 ## Guardrails
 
 - Do not treat multi-reference fields as regular scalar fields in item CRUD payloads.
@@ -49,4 +42,4 @@ description: Manages Wix CMS collections, schema, references, and data item CRUD
 - Permission/scope errors on schema operations:
   - Return required scope and halt destructive retries.
 - Reference operation mismatch:
-  - Switch to dedicated reference endpoints per recipe guidance.
+  - Switch to dedicated reference endpoints from Wix REST docs.

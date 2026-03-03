@@ -1,0 +1,22 @@
+{
+  "operations": [
+    {
+      "id": "wix-account-level.query-sites",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/site-list/v2/sites/query",
+      "authModes": ["oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/account-level/sites/sites/query-sites"
+    },
+    {
+      "id": "wix-account-level.search-team",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/roles-management/v3/team/search",
+      "authModes": ["api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/account-level/user-management/accounts/users/search-team"
+    }
+  ]
+}

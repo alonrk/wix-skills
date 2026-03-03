@@ -1,6 +1,6 @@
 # Direct Wix REST HTTP Layer
 
-This folder provides direct REST execution without Wix MCP.
+This folder provides direct REST execution.
 
 ## Auth Resolution Order
 
@@ -36,7 +36,7 @@ Each operation object supports:
 - `id`
 - `method`
 - `urlTemplate`
-- `authModes` (`signed_instance`, `oauth`, `api_key`)
+- `authModes` (`none`, `signed_instance`, `oauth`, `api_key`)
 - `requiredParams`
 - `bodyRequired`
 - `sourceDocUrl`
@@ -45,4 +45,4 @@ Each operation object supports:
 
 - If no allowed auth mode is available, script exits with an error.
 - `wix-request.js` is intended to be called by skills/playbooks first.
-- MCP should be used only when operation coverage or direct auth is insufficient.
+- Missing coverage should be handled by adding operation definitions in `tools/http/operations/`.

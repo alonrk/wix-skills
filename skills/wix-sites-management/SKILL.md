@@ -24,11 +24,7 @@ description: Manages Wix sites and site-level configuration through account/site
    - signed instance
    - OAuth token
    - API key
-5. If operation is not covered by a playbook, fall back to docs discovery:
-   - `WixREADME` for context
-   - `SearchWixRESTDocumentation`/`BrowseWixRESTDocsMenu`
-   - `ReadFullDocsArticle`/`ReadFullDocsMethodSchema`
-6. Use MCP only when direct REST cannot satisfy identity or coverage requirements.
+5. If operation is not covered by a playbook, use Wix REST docs discovery and add it to the operation registry before execution.
 
 ## Integration Playbooks
 

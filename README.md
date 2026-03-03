@@ -1,6 +1,6 @@
 # Wix Skills
 
-Agent Skills for Wix workflows, built from main Wix REST API documentation and Wix MCP tool flows.
+Agent Skills for Wix workflows, built from main Wix REST API documentation and direct REST execution flows.
 
 ## What This Repository Contains
 
@@ -23,6 +23,7 @@ Agent Skills for Wix workflows, built from main Wix REST API documentation and W
 | Skill | Purpose |
 | --- | --- |
 | `wix-project-context` | Captures account/site context before management operations |
+| `wix-rest-api-management` | Universal cross-domain Wix REST discovery and execution |
 | `wix-sites-management` | Site lifecycle and configuration management tasks |
 | `wix-stores-management` | Stores catalog and product management tasks |
 | `wix-bookings-management` | Booking services and staff operations |
@@ -38,8 +39,7 @@ Agent Skills for Wix workflows, built from main Wix REST API documentation and W
 4. Execute direct REST by default:
    1. `node tools/http/wix-request.js --operation <id> --params '{...}' --body '{...}'`
    2. auth resolves automatically: signed instance -> OAuth -> API key
-5. Use MCP only when direct REST cannot satisfy identity/coverage needs.
-6. Use docs search/schema flow only when a required operation is not in playbooks.
+5. Use docs search/schema flow only when a required operation is not in playbooks.
 
 ## Add a New Skill
 
@@ -56,4 +56,3 @@ bash validate-skills.sh
 
 - Agent Skills specification: https://agentskills.io/specification.md
 - Wix REST API reference: https://dev.wix.com/docs/api-reference
-- Wix MCP recipe index (optional accelerator): via `WixREADME`

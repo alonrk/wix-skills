@@ -1,15 +1,14 @@
 # Wix Sites
 
-Actionable playbook for Wix site operations. Use this file to execute site actions directly with `tools/http/wix-request.js` (MCP fallback only).
+Actionable playbook for Wix site operations. Use this file to execute site actions directly with `tools/http/wix-request.js`.
 
 ## Capabilities
 
 | Integration | Available | Notes |
 | --- | --- | --- |
 | API | ✓ | Sites, templates, and site lifecycle endpoints |
-| MCP | ✓ | Fallback only |
 | CLI | - | Not implemented |
-| SDK | ✓ | Optional outside MCP |
+| SDK | ✓ | Optional |
 
 ## Auth Modes
 
@@ -130,12 +129,6 @@ node tools/http/wix-request.js --operation wix-sites.create-site-from-template -
 ```bash
 node tools/http/wix-request.js --operation wix-sites.publish-site --body '{}'
 ```
-
-## MCP Fallback (Last Resort)
-
-Use only when direct REST is blocked by identity constraints or missing operation coverage.
-- Account-level: `ManageWixSite`
-- Site-level: `CallWixSiteAPI`
 
 ## Guardrails
 

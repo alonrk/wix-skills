@@ -13,10 +13,9 @@ description: Manages Wix Bookings entities including services, staff, schedules,
 
 ## Primary Flow (Main API Reference First)
 
-1. Call `WixREADME`.
-2. Locate Bookings methods via `SearchWixRESTDocumentation` or `BrowseWixRESTDocsMenu`.
-3. Read method docs with `ReadFullDocsArticle`.
-4. Execute via `CallWixSiteAPI` with docs-derived endpoint and body.
+1. Locate Bookings methods in Wix REST API reference.
+2. Add or select operation id in `tools/http/operations/`.
+3. Execute via `node tools/http/wix-request.js --operation <id> --params '{...}' --body '{...}'`.
 
 ## Main API Docs Targets
 
@@ -30,12 +29,6 @@ description: Manages Wix Bookings entities including services, staff, schedules,
   - https://dev.wix.com/docs/api-reference/business-solutions/bookings/flow-set-up-a-service
   - https://dev.wix.com/docs/api-reference/business-solutions/bookings/bookings/bookings-writer-v2/create-booking
 
-## Optional Recipe Accelerators
-
-- https://dev.wix.com/docs/picasso/wix-ai-docs/recipes-v2/manage/bookings/recipe-create-and-update-booking-services
-- https://dev.wix.com/docs/picasso/wix-ai-docs/recipes-v2/manage/bookings/recipe-bookings-staff-setup
-- https://dev.wix.com/docs/picasso/wix-ai-docs/recipes-v2/manage/bookings/recipe-configure-default-business-hours
-
 ## Guardrails
 
 - Do not set business hours using wrong API families when recipe specifies calendar events.
@@ -45,6 +38,6 @@ description: Manages Wix Bookings entities including services, staff, schedules,
 ## Error Handling
 
 - Missing bookings app or related module:
-  - Install/enable via platform recipe and retry.
+  - Install/enable app and retry.
 - Slot or scheduling conflicts:
   - Return conflict details and recommend retry windows/options.

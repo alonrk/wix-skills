@@ -1,0 +1,22 @@
+{
+  "operations": [
+    {
+      "id": "wix-app-management.get-app-instance",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/apps/v1/instance",
+      "authModes": ["oauth"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/app-management/app-instance/get-app-instance"
+    },
+    {
+      "id": "wix-app-management.get-plugin-placement-status",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/app-plugins/v1/site-plugins/placement-status",
+      "authModes": ["oauth"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/app-management/site-plugins/placement-status-v1/get-placement-status"
+    }
+  ]
+}

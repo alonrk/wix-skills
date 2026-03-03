@@ -2,20 +2,20 @@
 
 ## Plan
 
-Make direct Wix REST execution the default behavior in this repo by adding an HTTP execution layer that does not depend on MCP.
+Make direct Wix REST execution the default behavior in this repo by adding an HTTP execution layer that does not depend on external tool wrappers.
 
 Hybrid auth order:
 1. Signed instance
 2. OAuth access token
 3. API key
-4. MCP fallback only if direct REST cannot be used
+4. extend operation registries when direct REST coverage is missing
 
 ## Decisions
 
 - Add executable scripts under `tools/http/`.
 - Encode supported operations in JSON registries under `tools/http/operations/`.
 - Update integration playbooks and skills to use scripts by default.
-- Keep MCP as final fallback path, not primary path.
+- Keep direct REST as the only execution path.
 
 ## Execution Notes
 
@@ -32,7 +32,7 @@ Hybrid auth order:
   - `tools/integrations/wix-sites.md`
   - `tools/integrations/wix-domains.md`
   - `tools/integrations/wix-site-properties.md`
-- Updated skill/system guidance to default to direct REST and keep MCP as fallback:
+- Updated skill/system guidance to default to direct REST:
   - `skills/wix-sites-management/SKILL.md`
   - `skills/wix-project-context/SKILL.md`
   - `AGENTS.md`

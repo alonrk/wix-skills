@@ -7,7 +7,7 @@
 - Encode deterministic execution flow, not generic advice.
 - Prefer direct REST script-first flow.
 - Keep `tools/REGISTRY.md` and `tools/integrations/*.md` in sync with skill behavior.
-- Write integration guides as executable playbooks (endpoint, method, request template, direct script command, MCP fallback).
+- Write integration guides as executable playbooks (endpoint, method, request template, direct script command).
 
 ## Skill Authoring Rules
 

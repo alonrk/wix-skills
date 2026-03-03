@@ -13,10 +13,9 @@ description: Manages Wix Stores catalog entities such as products, options, vari
 
 ## Primary Flow (Main API Reference First)
 
-1. Call `WixREADME`.
-2. Locate target Stores methods via `SearchWixRESTDocumentation` or `BrowseWixRESTDocsMenu`.
-3. Read method docs with `ReadFullDocsArticle`.
-4. Execute with `CallWixSiteAPI` using docs-derived endpoint and request shape.
+1. Locate target Stores methods in Wix REST API reference.
+2. Add or select operation id in `tools/http/operations/`.
+3. Execute with `node tools/http/wix-request.js --operation <id> --params '{...}' --body '{...}'`.
 
 ## Main API Docs Targets
 
@@ -25,13 +24,7 @@ description: Manages Wix Stores catalog entities such as products, options, vari
   - https://dev.wix.com/docs/api-reference/business-solutions/stores/catalog-v3/products-v3/create-product-with-inventory
 - Catalog V3 bulk creation:
   - https://dev.wix.com/docs/api-reference/business-solutions/stores/catalog-v3/products-v3/bulk-create-products-with-inventory
-- Use `SearchWixRESTDocumentation` to locate additional methods for querying/updating products, inventory, and categories.
-
-## Optional Recipe Accelerators
-
-- https://dev.wix.com/docs/picasso/wix-ai-docs/recipes-v2/manage/stores/recipe-setup-online-store-catalog-v3
-- https://dev.wix.com/docs/picasso/wix-ai-docs/recipes-v2/manage/stores/recipe-query-products
-- https://dev.wix.com/docs/picasso/wix-ai-docs/recipes-v2/manage/stores/recipe-update-product-with-options
+- Use Wix REST API reference navigation to locate additional methods for querying/updating products, inventory, and categories.
 
 ## Guardrails
 

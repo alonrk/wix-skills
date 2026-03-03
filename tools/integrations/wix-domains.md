@@ -7,9 +7,8 @@ Actionable playbook for Wix domain discovery and availability checks via direct 
 | Integration | Available | Notes |
 | --- | --- | --- |
 | API | ✓ | Domain Search API methods |
-| MCP | ✓ | Fallback only |
 | CLI | - | Not implemented |
-| SDK | ✓ | Optional outside MCP |
+| SDK | ✓ | Optional |
 
 ## Auth Modes
 
@@ -56,10 +55,6 @@ node tools/http/wix-request.js --operation wix-domains.check-availability --para
   - verify TLD format and domain format,
   - retry with cleaned query/domain,
   - return explicit reason if unavailable.
-
-## MCP Fallback (Last Resort)
-
-If direct API key execution is unavailable, use `ManageWixSite` with equivalent domain endpoints.
 
 ## Guardrails
 

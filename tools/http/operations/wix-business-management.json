@@ -1,0 +1,31 @@
+{
+  "operations": [
+    {
+      "id": "wix-business-management.get-installed-apps",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/apps-installer-service/v1/app-instances",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-management/app-installation/get-installed-apps"
+    },
+    {
+      "id": "wix-business-management.list-locations",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/locations/v1/locations",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-management/locations/list-locations"
+    },
+    {
+      "id": "wix-business-management.get-site-properties",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/site-properties/v4/properties",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-management/site-properties/properties/get-site-properties"
+    }
+  ]
+}
