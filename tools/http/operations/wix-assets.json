@@ -17,6 +17,15 @@
       "requiredParams": [],
       "bodyRequired": true,
       "sourceDocUrl": "https://dev.wix.com/docs/api-reference/assets/media/media-manager/files/import-file"
+    },
+    {
+      "id": "wix-assets.bulk-import-file",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/site-media/v1/bulk/files/import-v2",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/assets/media/media-manager/files/bulk-import-file"
     }
   ]
 }

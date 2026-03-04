@@ -6,34 +6,20 @@ Universal playbook for cross-domain Wix REST work.
 
 - `tools/http/operations/wix-rest-universal.json`
 
-## Bootstrap Operation Cards
+## Routing Targets (No Duplicated Operations)
 
-### 1) Query Sites (routing context)
+Route execution to the most relevant domain integration:
 
-- **Operation id**: `wix-rest-universal.query-sites`
-- **Run**:
-
-```bash
-node tools/http/wix-request.js --operation wix-rest-universal.query-sites --body '{"query":{"cursorPaging":{"limit":25}}}'
-```
-
-### 2) Query Contacts (CRM baseline)
-
-- **Operation id**: `wix-rest-universal.query-contacts`
-- **Run**:
-
-```bash
-node tools/http/wix-request.js --operation wix-rest-universal.query-contacts --body '{"query":{"paging":{"limit":25}}}'
-```
-
-### 3) List Files (assets baseline)
-
-- **Operation id**: `wix-rest-universal.list-files`
-- **Run**:
-
-```bash
-node tools/http/wix-request.js --operation wix-rest-universal.list-files
-```
+- account scope: `tools/integrations/wix-account-level.md`
+- business settings: `tools/integrations/wix-business-management.md`
+- stores: `tools/integrations/wix-stores.md`
+- bookings: `tools/integrations/wix-bookings.md`
+- cms: `tools/integrations/wix-cms.md`
+- crm: `tools/integrations/wix-crm.md`
+- assets/media: `tools/integrations/wix-assets.md`
+- app scope: `tools/integrations/wix-app-management.md`
+- site scope: `tools/integrations/wix-site-api.md`
+- auth/query/platform guidance: `tools/integrations/wix-rest-articles.md`
 
 ## Discovery Flow (for missing operations)
 

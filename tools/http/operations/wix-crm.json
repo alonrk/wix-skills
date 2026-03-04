@@ -17,6 +17,15 @@
       "requiredParams": [],
       "bodyRequired": false,
       "sourceDocUrl": "https://dev.wix.com/docs/api-reference/crm/members-contacts/contacts/labels/list-labels"
+    },
+    {
+      "id": "wix-crm.create-contact",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/contacts/v4/contacts",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/crm/members-contacts/contacts/contacts/contact-v4/create-contact"
     }
   ]
 }

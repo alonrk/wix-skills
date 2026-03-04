@@ -8,15 +8,6 @@
       "requiredParams": [],
       "bodyRequired": true,
       "sourceDocUrl": "https://dev.wix.com/docs/rest/app-management/oauth-2/create-access-token"
-    },
-    {
-      "id": "wix-rest-articles.query-sites-baseline",
-      "method": "POST",
-      "urlTemplate": "https://www.wixapis.com/site-list/v2/sites/query",
-      "authModes": ["oauth", "api_key"],
-      "requiredParams": [],
-      "bodyRequired": false,
-      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/account-level/sites/sites/query-sites"
     }
   ]
 }

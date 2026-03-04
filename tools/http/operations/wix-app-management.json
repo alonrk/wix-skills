@@ -17,6 +17,15 @@
       "requiredParams": [],
       "bodyRequired": false,
       "sourceDocUrl": "https://dev.wix.com/docs/api-reference/app-management/site-plugins/placement-status-v1/get-placement-status"
+    },
+    {
+      "id": "wix-app-management.list-app-permissions",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/apps/v1/app-permissions/v1/app-permissions",
+      "authModes": ["oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/app-management/app-permissions/list-app-permissions"
     }
   ]
 }

@@ -8,6 +8,15 @@
       "requiredParams": [],
       "bodyRequired": true,
       "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/cms/data-items/query-data-items"
+    },
+    {
+      "id": "wix-cms.save-data-item",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/wix-data/v2/items/save",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/cms/data-items/save-data-item"
     }
   ]
 }

@@ -8,6 +8,96 @@
       "requiredParams": [],
       "bodyRequired": false,
       "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/bookings/services/services-v2/query-services"
+    },
+    {
+      "id": "wix-bookings.create-service",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/_api/bookings/v2/services",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/bookings/services/services-v2/create-service"
+    },
+    {
+      "id": "wix-bookings.get-service",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/_api/bookings/v2/services/{serviceId}",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": ["serviceId"],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/bookings/services/services-v2/get-service"
+    },
+    {
+      "id": "wix-bookings.update-service",
+      "method": "PATCH",
+      "urlTemplate": "https://www.wixapis.com/_api/bookings/v2/services/{serviceId}",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": ["serviceId"],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/rest/business-solutions/bookings/services/services-v2/update-service"
+    },
+    {
+      "id": "wix-bookings.query-staff-members",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/bookings/v1/staff-members/query",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/bookings/staff-members/staff-members/query-staff-members"
+    },
+    {
+      "id": "wix-bookings.create-staff-member",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/bookings/v1/staff-members",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/bookings/staff-members/staff-members/create-staff-member"
+    },
+    {
+      "id": "wix-bookings.delete-staff-member",
+      "method": "DELETE",
+      "urlTemplate": "https://www.wixapis.com/bookings/v1/staff-members/{staffMemberId}",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": ["staffMemberId"],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/events/event-management/staff-members/delete-staff-member"
+    },
+    {
+      "id": "wix-bookings.list-availability-time-slots",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/_api/service-availability/v2/time-slots/list",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/bookings/time-slots/time-slots-v2/get-availability-time-slot"
+    },
+    {
+      "id": "wix-bookings.get-availability-time-slot",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/_api/service-availability/v2/time-slots/get",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/bookings/time-slots/time-slots-v2/get-availability-time-slot"
+    },
+    {
+      "id": "wix-bookings.create-booking",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/bookings/v2/bookings",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/bookings/bookings/bookings-writer-v2/create-booking"
+    },
+    {
+      "id": "wix-bookings.bulk-create-booking",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/bookings/v2/bulk/bookings/create",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/bookings/bookings/bookings-writer-v2/bulk-create-booking"
     }
   ]
 }

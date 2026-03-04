@@ -22,13 +22,3 @@ Actionable playbook for site-scoped APIs.
 ```bash
 node tools/http/wix-request.js --operation wix-site-api.query-site-contributors
 ```
-
-### 2) Get Site Properties
-
-- **Operation id**: `wix-site-api.get-site-properties`
-- **HTTP**: `GET https://www.wixapis.com/site-properties/v4/properties`
-- **Run**:
-
-```bash
-node tools/http/wix-request.js --operation wix-site-api.get-site-properties
-```

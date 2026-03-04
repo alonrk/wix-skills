@@ -16,24 +16,6 @@ Actionable playbook for business-solutions APIs.
 - `tools/integrations/wix-bookings.md`
 - `tools/integrations/wix-cms.md`
 
-## Operation Cards
+## Usage Rule
 
-### 1) Query Store Products
-
-- **Operation id**: `wix-business-solutions.query-store-products`
-- **HTTP**: `POST https://www.wixapis.com/stores/v3/products/query`
-- **Run**:
-
-```bash
-node tools/http/wix-request.js --operation wix-business-solutions.query-store-products --body '{"query":{"paging":{"limit":50}}}'
-```
-
-### 2) Query CMS Data Items
-
-- **Operation id**: `wix-business-solutions.query-data-items`
-- **HTTP**: `POST https://www.wixapis.com/wix-data/v2/items/query`
-- **Run**:
-
-```bash
-node tools/http/wix-request.js --operation wix-business-solutions.query-data-items --body '{"dataCollectionId":"<collection-guid>","query":{"paging":{"limit":50}}}'
-```
+Use this file as a router only. Execute operations from the domain-specific playbooks above to avoid duplicates and keep ownership clear.

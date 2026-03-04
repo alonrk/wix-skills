@@ -17,6 +17,60 @@
       "requiredParams": [],
       "bodyRequired": true,
       "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/stores/catalog-v3/products-v3/create-product"
+    },
+    {
+      "id": "wix-stores.get-product",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/stores/v3/products/{productId}",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": ["productId"],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/stores/catalog-v3/products-v3/get-product"
+    },
+    {
+      "id": "wix-stores.get-product-by-slug",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/stores/v3/products/slug/{slug}",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": ["slug"],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/rest/business-solutions/stores/catalog-v3/products-v3/get-product-by-slug"
+    },
+    {
+      "id": "wix-stores.search-products",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/stores/v3/products/search",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/rest/business-solutions/stores/catalog-v3/products-v3/search-products"
+    },
+    {
+      "id": "wix-stores.bulk-delete-products",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/stores/v3/bulk/products/delete",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/stores/catalog-v3/products-v3/bulk-delete-products"
+    },
+    {
+      "id": "wix-stores.query-inventory",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/stores-reader/v2/inventoryItems/query",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/rest/business-solutions/stores/inventory/query-inventory"
+    },
+    {
+      "id": "wix-stores.query-collections",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/stores-reader/v1/collections/query",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/stores/catalog-v1/catalog/query-collections"
     }
   ]
 }

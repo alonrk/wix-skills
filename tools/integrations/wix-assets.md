@@ -31,3 +31,13 @@ node tools/http/wix-request.js --operation wix-assets.list-files
 ```bash
 node tools/http/wix-request.js --operation wix-assets.import-file --body '{"url":"https://example.com/banner.jpg","displayName":"banner.jpg"}'
 ```
+
+### 3) Bulk Import Files
+
+- **Operation id**: `wix-assets.bulk-import-file`
+- **HTTP**: `POST https://www.wixapis.com/site-media/v1/bulk/files/import-v2`
+- **Run**:
+
+```bash
+node tools/http/wix-request.js --operation wix-assets.bulk-import-file --body '{"importFileRequests":[{"url":"https://example.com/a.jpg","displayName":"a.jpg"},{"url":"https://example.com/b.jpg","displayName":"b.jpg"}]}'
+```

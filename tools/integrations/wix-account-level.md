@@ -12,17 +12,7 @@ Actionable playbook for account-level APIs.
 
 ## Operation Cards
 
-### 1) Query Sites
-
-- **Operation id**: `wix-account-level.query-sites`
-- **HTTP**: `POST https://www.wixapis.com/site-list/v2/sites/query`
-- **Run**:
-
-```bash
-node tools/http/wix-request.js --operation wix-account-level.query-sites --body '{"query":{"cursorPaging":{"limit":50}}}'
-```
-
-### 2) Search Team
+### 1) Search Team
 
 - **Operation id**: `wix-account-level.search-team`
 - **HTTP**: `POST https://www.wixapis.com/roles-management/v3/team/search`

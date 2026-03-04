@@ -33,3 +33,13 @@ node tools/http/wix-request.js --operation wix-app-management.get-app-instance
 ```bash
 node tools/http/wix-request.js --operation wix-app-management.get-plugin-placement-status
 ```
+
+### 3) List App Permissions
+
+- **Operation id**: `wix-app-management.list-app-permissions`
+- **HTTP**: `GET https://www.wixapis.com/apps/v1/app-permissions/v1/app-permissions`
+- **Run**:
+
+```bash
+node tools/http/wix-request.js --operation wix-app-management.list-app-permissions
+```

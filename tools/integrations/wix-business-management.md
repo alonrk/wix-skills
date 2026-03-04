@@ -32,12 +32,12 @@ node tools/http/wix-request.js --operation wix-business-management.get-installed
 node tools/http/wix-request.js --operation wix-business-management.list-locations
 ```
 
-### 3) Get Site Properties
+### 3) List Published Site URLs
 
-- **Operation id**: `wix-business-management.get-site-properties`
-- **HTTP**: `GET https://www.wixapis.com/site-properties/v4/properties`
+- **Operation id**: `wix-business-management.list-published-site-urls`
+- **HTTP**: `GET https://www.wixapis.com/urls-server/v2/published-site-urls`
 - **Run**:
 
 ```bash
-node tools/http/wix-request.js --operation wix-business-management.get-site-properties
+node tools/http/wix-request.js --operation wix-business-management.list-published-site-urls
 ```

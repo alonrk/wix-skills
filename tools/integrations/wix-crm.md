@@ -31,3 +31,13 @@ node tools/http/wix-request.js --operation wix-crm.query-contacts --body '{"quer
 ```bash
 node tools/http/wix-request.js --operation wix-crm.list-contact-labels
 ```
+
+### 3) Create Contact
+
+- **Operation id**: `wix-crm.create-contact`
+- **HTTP**: `POST https://www.wixapis.com/contacts/v4/contacts`
+- **Run**:
+
+```bash
+node tools/http/wix-request.js --operation wix-crm.create-contact --body '{"info":{"name":{"first":"Jane","last":"Doe"},"emails":{"items":[{"email":"jane@example.com"}]}}}'
+```

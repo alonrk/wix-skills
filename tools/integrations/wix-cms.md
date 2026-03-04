@@ -22,6 +22,16 @@ Actionable playbook for Wix CMS APIs.
 node tools/http/wix-request.js --operation wix-cms.query-data-items --body '{"dataCollectionId":"<collection-guid>","query":{"paging":{"limit":50}}}'
 ```
 
+### 2) Save Data Item
+
+- **Operation id**: `wix-cms.save-data-item`
+- **HTTP**: `POST https://www.wixapis.com/wix-data/v2/items/save`
+- **Run**:
+
+```bash
+node tools/http/wix-request.js --operation wix-cms.save-data-item --body '{"dataCollectionId":"<collection-guid>","dataItem":{"data":{"title":"New Item"}}}'
+```
+
 ## Guardrails
 
 - Keep collection IDs and field keys exact; do not rename implicitly.
