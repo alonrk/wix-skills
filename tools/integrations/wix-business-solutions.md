@@ -10,6 +10,12 @@ Actionable playbook for business-solutions APIs.
 
 - `tools/http/operations/wix-business-solutions.json`
 
+## Domain-Specific Playbooks
+
+- `tools/integrations/wix-stores.md`
+- `tools/integrations/wix-bookings.md`
+- `tools/integrations/wix-cms.md`
+
 ## Operation Cards
 
 ### 1) Query Store Products

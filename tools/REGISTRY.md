@@ -22,6 +22,9 @@ Operational index for Wix REST API coverage across all major domains.
 | wix-app-management | App Management APIs | ✓ | ✓ | ✓ | [wix-app-management.md](integrations/wix-app-management.md) |
 | wix-site-api | Site APIs | ✓ | ✓ | ✓ | [wix-site-api.md](integrations/wix-site-api.md) |
 | wix-rest-articles | Auth/query/platform guidance | ✓ | - | ✓ | [wix-rest-articles.md](integrations/wix-rest-articles.md) |
+| wix-stores | Stores operations | ✓ | ✓ | ✓ | [wix-stores.md](integrations/wix-stores.md) |
+| wix-bookings | Bookings operations | ✓ | ✓ | ✓ | [wix-bookings.md](integrations/wix-bookings.md) |
+| wix-cms | CMS operations | ✓ | ✓ | ✓ | [wix-cms.md](integrations/wix-cms.md) |
 | wix-sites | Sites operations | ✓ | ✓ | ✓ | [wix-sites.md](integrations/wix-sites.md) |
 | wix-domains | Domains operations | ✓ | ✓ | ✓ | [wix-domains.md](integrations/wix-domains.md) |
 | wix-site-properties | Site Properties operations | ✓ | ✓ | ✓ | [wix-site-properties.md](integrations/wix-site-properties.md) |
@@ -54,6 +57,9 @@ Operational index for Wix REST API coverage across all major domains.
   - `tools/http/operations/wix-app-management.json`
   - `tools/http/operations/wix-site-api.json`
   - `tools/http/operations/wix-rest-articles.json`
+  - `tools/http/operations/wix-stores.json`
+  - `tools/http/operations/wix-bookings.json`
+  - `tools/http/operations/wix-cms.json`
 
 ## Selection Rules
 

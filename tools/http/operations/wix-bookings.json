@@ -1,0 +1,13 @@
+{
+  "operations": [
+    {
+      "id": "wix-bookings.query-services",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/_api/bookings/v2/services/query",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/bookings/services/services-v2/query-services"
+    }
+  ]
+}

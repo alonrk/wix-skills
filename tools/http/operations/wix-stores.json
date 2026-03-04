@@ -1,0 +1,22 @@
+{
+  "operations": [
+    {
+      "id": "wix-stores.query-products",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/stores/v3/products/query",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/stores/catalog-v3/products-v3/query-products"
+    },
+    {
+      "id": "wix-stores.create-product",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/stores/v3/products",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/stores/catalog-v3/products-v3/create-product"
+    }
+  ]
+}

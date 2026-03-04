@@ -11,20 +11,18 @@ description: Manages Wix Stores catalog entities such as products, options, vari
 - The request involves product options, variants, categories, inventory, or pre-order settings.
 - The user asks to add missing store pages (cart/checkout) or run bulk product operations.
 
-## Primary Flow (Main API Reference First)
+## Primary Flow
 
-1. Locate target Stores methods in Wix REST API reference.
-2. Add or select operation id in `tools/http/operations/`.
-3. Execute with `node tools/http/wix-request.js --operation <id> --params '{...}' --body '{...}'`.
+1. Open `tools/integrations/wix-stores.md`.
+2. Select operation id for the requested stores action.
+3. Execute with:
+   - `node tools/http/wix-request.js --operation <id> --params '{...}' --body '{...}'`
+4. Add missing operation coverage to:
+   - `tools/http/operations/wix-stores.json`
 
-## Main API Docs Targets
+## Integration Playbook
 
-- Catalog V3 product creation:
-  - https://dev.wix.com/docs/api-reference/business-solutions/stores/catalog-v3/products-v3/create-product
-  - https://dev.wix.com/docs/api-reference/business-solutions/stores/catalog-v3/products-v3/create-product-with-inventory
-- Catalog V3 bulk creation:
-  - https://dev.wix.com/docs/api-reference/business-solutions/stores/catalog-v3/products-v3/bulk-create-products-with-inventory
-- Use Wix REST API reference navigation to locate additional methods for querying/updating products, inventory, and categories.
+- `tools/integrations/wix-stores.md`
 
 ## Guardrails
 
@@ -35,6 +33,6 @@ description: Manages Wix Stores catalog entities such as products, options, vari
 ## Error Handling
 
 - Stores app missing:
-  - Install app through platform recipe and retry.
+  - Install app and retry.
 - Validation failures in bulk operations:
   - Report partial failures explicitly and continue with successful items when appropriate.

@@ -11,27 +11,22 @@ description: Manages Wix Bookings entities including services, staff, schedules,
 - The task involves staff setup, working hours, resource assignment, or booking payment flow integration.
 - The user needs booking policy configuration (cancellation, waitlist, service policy).
 
-## Primary Flow (Main API Reference First)
+## Primary Flow
 
-1. Locate Bookings methods in Wix REST API reference.
-2. Add or select operation id in `tools/http/operations/`.
-3. Execute via `node tools/http/wix-request.js --operation <id> --params '{...}' --body '{...}'`.
+1. Open `tools/integrations/wix-bookings.md`.
+2. Select operation id for the requested bookings action.
+3. Execute with:
+   - `node tools/http/wix-request.js --operation <id> --params '{...}' --body '{...}'`
+4. Add missing operation coverage to:
+   - `tools/http/operations/wix-bookings.json`
 
-## Main API Docs Targets
+## Integration Playbook
 
-- Services API:
-  - https://dev.wix.com/docs/api-reference/business-solutions/bookings/services/services-v2/create-service
-  - https://dev.wix.com/docs/api-reference/business-solutions/bookings/services/services-v2/bulk-create-services
-- Staff Members API:
-  - https://dev.wix.com/docs/api-reference/business-solutions/bookings/staff-members/staff-members/introduction
-  - https://dev.wix.com/docs/api-reference/business-solutions/bookings/staff-members/staff-members/create-staff-member
-- Bookings flow guidance:
-  - https://dev.wix.com/docs/api-reference/business-solutions/bookings/flow-set-up-a-service
-  - https://dev.wix.com/docs/api-reference/business-solutions/bookings/bookings/bookings-writer-v2/create-booking
+- `tools/integrations/wix-bookings.md`
 
 ## Guardrails
 
-- Do not set business hours using wrong API families when recipe specifies calendar events.
+- Do not set business hours using unrelated API families.
 - Keep service type assumptions explicit (`APPOINTMENT`, `CLASS`, `COURSE`) and docs-based.
 - Never infer payment integration payloads without docs context.
 

@@ -11,25 +11,18 @@ description: Manages Wix CMS collections, schema, references, and data item CRUD
 - The task involves inserting, querying, updating, deleting, or bulk-processing CMS data items.
 - The request includes single/multi-reference relationship management.
 
-## Primary Flow (Main API Reference First)
+## Primary Flow
 
-1. Locate CMS methods in Wix REST API reference.
-2. Add or select operation id in `tools/http/operations/`.
-3. Execute with `node tools/http/wix-request.js --operation <id> --params '{...}' --body '{...}'`.
+1. Open `tools/integrations/wix-cms.md`.
+2. Select operation id for the requested CMS action.
+3. Execute with:
+   - `node tools/http/wix-request.js --operation <id> --params '{...}' --body '{...}'`
+4. Add missing operation coverage to:
+   - `tools/http/operations/wix-cms.json`
 
-## Main API Docs Targets
+## Integration Playbook
 
-- Data Items API:
-  - https://dev.wix.com/docs/api-reference/business-solutions/cms/data-items/introduction
-  - https://dev.wix.com/docs/api-reference/business-solutions/cms/data-items/save-data-item
-  - https://dev.wix.com/docs/api-reference/business-solutions/cms/data-items/bulk-save-data-items
-- Data Collections API:
-  - https://dev.wix.com/docs/api-reference/business-solutions/cms/collection-management/data-collections/create-data-collection
-- References operations:
-  - https://dev.wix.com/docs/api-reference/business-solutions/cms/data-items/insert-data-item-reference
-  - https://dev.wix.com/docs/api-reference/business-solutions/cms/data-items/bulk-insert-data-item-references
-- Error catalog:
-  - https://dev.wix.com/docs/api-reference/business-solutions/cms/wix-data-error-codes
+- `tools/integrations/wix-cms.md`
 
 ## Guardrails
 
