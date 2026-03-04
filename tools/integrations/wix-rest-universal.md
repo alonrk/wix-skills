@@ -12,6 +12,8 @@ Route execution to the most relevant domain integration:
 
 - account scope: `tools/integrations/wix-account-level.md`
 - business settings: `tools/integrations/wix-business-management.md`
+- analytics: `tools/integrations/wix-analytics.md`
+- email marketing: `tools/integrations/wix-email-marketing.md`
 - stores: `tools/integrations/wix-stores.md`
 - bookings: `tools/integrations/wix-bookings.md`
 - cms: `tools/integrations/wix-cms.md`

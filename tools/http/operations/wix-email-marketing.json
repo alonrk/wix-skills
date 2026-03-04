@@ -1,0 +1,40 @@
+{
+  "operations": [
+    {
+      "id": "wix-email-marketing.list-campaigns",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/email-marketing/v1/campaigns",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-management/marketing/emails/email-marketing/campaign/list-campaigns"
+    },
+    {
+      "id": "wix-email-marketing.publish-campaign",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/email-marketing/v1/campaigns/{campaignId}/publish",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": ["campaignId"],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-management/marketing/emails/email-marketing/campaign/publish-campaign"
+    },
+    {
+      "id": "wix-email-marketing.list-statistics",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/email-marketing/v1/campaigns/statistics?campaignIds={campaignId}",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": ["campaignId"],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-management/marketing/emails/email-marketing/campaign/list-statistics"
+    },
+    {
+      "id": "wix-email-marketing.list-sender-emails",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/sender-emails/v1/sender-emails",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-management/marketing/emails/sender-emails/list-sender-emails"
+    }
+  ]
+}

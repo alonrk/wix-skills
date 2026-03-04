@@ -16,6 +16,8 @@ Operational index for Wix REST API coverage across all major domains.
 | wix-rest-universal | Cross-domain REST orchestration | ✓ | ✓ | ✓ | [wix-rest-universal.md](integrations/wix-rest-universal.md) |
 | wix-account-level | Account-level APIs | ✓ | ✓ | ✓ | [wix-account-level.md](integrations/wix-account-level.md) |
 | wix-business-management | Business Management APIs | ✓ | ✓ | ✓ | [wix-business-management.md](integrations/wix-business-management.md) |
+| wix-analytics | Analytics APIs | ✓ | ✓ | ✓ | [wix-analytics.md](integrations/wix-analytics.md) |
+| wix-email-marketing | Email Marketing APIs | ✓ | ✓ | ✓ | [wix-email-marketing.md](integrations/wix-email-marketing.md) |
 | wix-business-solutions | Business Solutions APIs | ✓ | ✓ | ✓ | [wix-business-solutions.md](integrations/wix-business-solutions.md) |
 | wix-crm | CRM APIs | ✓ | ✓ | ✓ | [wix-crm.md](integrations/wix-crm.md) |
 | wix-assets | Assets APIs | ✓ | ✓ | ✓ | [wix-assets.md](integrations/wix-assets.md) |
@@ -37,6 +39,8 @@ Operational index for Wix REST API coverage across all major domains.
 - Assets
 - CRM
 - Business Management
+- Analytics
+- Marketing (Emails)
 - Account Level
 - Site
 
@@ -51,6 +55,8 @@ Operational index for Wix REST API coverage across all major domains.
   - `tools/http/operations/wix-rest-universal.json`
   - `tools/http/operations/wix-account-level.json`
   - `tools/http/operations/wix-business-management.json`
+  - `tools/http/operations/wix-analytics.json`
+  - `tools/http/operations/wix-email-marketing.json`
   - `tools/http/operations/wix-business-solutions.json`
   - `tools/http/operations/wix-crm.json`
   - `tools/http/operations/wix-assets.json`

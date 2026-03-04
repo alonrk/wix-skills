@@ -9,6 +9,8 @@ This repository is for Wix-specific Agent Skills. Each skill should produce cons
 Activate a skill when the user intent clearly matches its domain:
 - `wix-account-level-management`: account-level sites, domains, teams, and ownership scope
 - `wix-business-management`: business settings such as locations and site properties
+- `wix-analytics-management`: site analytics measurements and reporting retrieval
+- `wix-email-marketing-management`: email campaigns, sender addresses, and campaign statistics
 - `wix-business-solutions-management`: cross-vertical solution operations
 - `wix-crm-management`: contacts, labels, forms, and CRM-centric operations
 - `wix-assets-management`: media/asset import and retrieval operations

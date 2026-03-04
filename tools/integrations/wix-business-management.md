@@ -10,6 +10,11 @@ Actionable playbook for business-management APIs.
 
 - `tools/http/operations/wix-business-management.json`
 
+## Domain-Specific Playbooks
+
+- `tools/integrations/wix-analytics.md`
+- `tools/integrations/wix-email-marketing.md`
+
 ## Operation Cards
 
 ### 1) Get Installed Apps

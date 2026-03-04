@@ -11,6 +11,8 @@ This file tracks source-to-skill mapping before authoring or updating a skill.
 | wix-project-context | collect account/site IDs and prerequisites | https://dev.wix.com/docs/api-reference/business-management/app-installation/get-installed-apps | sites, apps, prerequisites | none |
 | wix-account-level-management | account-level assets, users, and domains | https://dev.wix.com/docs/api-reference/account-level | sites, domains, user management | account-level permissions |
 | wix-business-management | business settings and platform operations | https://dev.wix.com/docs/api-reference/business-management | locations, site properties, app installation | business-management scopes |
+| wix-analytics-management | site analytics reporting and metrics retrieval | https://dev.wix.com/docs/api-reference/business-management/analytics/introduction | analytics data, measurement types, date ranges | site analytics read scope |
+| wix-email-marketing-management | email campaign operations and sender management | https://dev.wix.com/docs/api-reference/business-management/marketing/emails | campaigns, sender emails, campaign statistics | email marketing scopes and active account |
 | wix-business-solutions-management | cross-vertical business solution tasks | https://dev.wix.com/docs/api-reference/business-solutions | stores, bookings, cms, events, plans | solution-specific app dependencies |
 | wix-crm-management | contacts and CRM workflows | https://dev.wix.com/docs/api-reference/crm | contacts, labels, communication | crm scopes |
 | wix-assets-management | media and assets operations | https://dev.wix.com/docs/api-reference/assets | files, imports, media manager | assets/media scopes |

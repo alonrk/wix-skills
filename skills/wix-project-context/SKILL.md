@@ -36,6 +36,8 @@ description: Gathers and validates Wix account/site context before management op
 
 - `wix-account-level-management`
 - `wix-business-management`
+- `wix-analytics-management`
+- `wix-email-marketing-management`
 - `wix-business-solutions-management`
 - `wix-crm-management`
 - `wix-assets-management`

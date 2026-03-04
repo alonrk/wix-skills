@@ -1,0 +1,13 @@
+{
+  "operations": [
+    {
+      "id": "wix-analytics.get-analytics-data",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/analytics/v2/site-analytics/data?date_range.start_date={startDate}&date_range.end_date={endDate}&measurement_types[]={measurementType}",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": ["startDate", "endDate", "measurementType"],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-management/analytics/data/get-analytics-data"
+    }
+  ]
+}
