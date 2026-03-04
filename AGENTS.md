@@ -7,7 +7,14 @@ This repository is for Wix-specific Agent Skills. Each skill should produce cons
 ## Activation Guidance
 
 Activate a skill when the user intent clearly matches its domain:
-- `wix-rest-api-management`: cross-domain Wix REST operations and unknown API family requests
+- `wix-account-level-management`: account-level sites, domains, teams, and ownership scope
+- `wix-business-management`: business settings such as locations and site properties
+- `wix-business-solutions-management`: cross-vertical solution operations
+- `wix-crm-management`: contacts, labels, forms, and CRM-centric operations
+- `wix-assets-management`: media/asset import and retrieval operations
+- `wix-app-management`: app instance and app plugin operations
+- `wix-site-api-management`: site-scoped operational APIs
+- `wix-rest-articles-guidance`: auth/query/platform guidance tasks
 - `wix-sites-management`: site setup, templates, domains, site properties
 - `wix-stores-management`: products, variants, categories, catalog operations
 - `wix-bookings-management`: services, staff, hours, booking setup

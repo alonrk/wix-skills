@@ -9,4 +9,11 @@ This file tracks source-to-skill mapping before authoring or updating a skill.
 | wix-bookings-management | services, staff, hours | https://dev.wix.com/docs/api-reference/business-solutions/bookings/services/services-v2/create-service | Bookings Services, Staff, Calendar Events | Bookings app installed |
 | wix-cms-management | collection schema and data | https://dev.wix.com/docs/api-reference/business-solutions/cms/data-items/introduction | Wix Data items, collections, references | CMS permissions/scopes |
 | wix-project-context | collect account/site IDs and prerequisites | https://dev.wix.com/docs/api-reference/business-management/app-installation/get-installed-apps | sites, apps, prerequisites | none |
-| wix-rest-api-management | cross-domain REST operations and unknown domain requests | https://dev.wix.com/docs/api-reference | all top-level wix rest families | use for broad/unclassified requests |
+| wix-account-level-management | account-level assets, users, and domains | https://dev.wix.com/docs/api-reference/account-level | sites, domains, user management | account-level permissions |
+| wix-business-management | business settings and platform operations | https://dev.wix.com/docs/api-reference/business-management | locations, site properties, app installation | business-management scopes |
+| wix-business-solutions-management | cross-vertical business solution tasks | https://dev.wix.com/docs/api-reference/business-solutions | stores, bookings, cms, events, plans | solution-specific app dependencies |
+| wix-crm-management | contacts and CRM workflows | https://dev.wix.com/docs/api-reference/crm | contacts, labels, communication | crm scopes |
+| wix-assets-management | media and assets operations | https://dev.wix.com/docs/api-reference/assets | files, imports, media manager | assets/media scopes |
+| wix-app-management | app runtime and lifecycle operations | https://dev.wix.com/docs/api-reference/app-management | app instance, site plugins | app-auth requirements |
+| wix-site-api-management | site-scoped operational APIs | https://dev.wix.com/docs/api-reference/site | contributors, site-level context | site scope required |
+| wix-rest-articles-guidance | auth/query/platform guidance | https://dev.wix.com/docs/api-reference/articles | authentication, paging, troubleshooting | guidance skill, not entity CRUD |

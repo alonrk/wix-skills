@@ -23,7 +23,14 @@ Agent Skills for Wix workflows, built from main Wix REST API documentation and d
 | Skill | Purpose |
 | --- | --- |
 | `wix-project-context` | Captures account/site context before management operations |
-| `wix-rest-api-management` | Universal cross-domain Wix REST discovery and execution |
+| `wix-account-level-management` | Account-level sites, domains, and team/user management |
+| `wix-business-management` | Business platform settings such as locations and site properties |
+| `wix-business-solutions-management` | Cross-vertical business solutions operations |
+| `wix-crm-management` | Contacts, labels, and CRM-centric operations |
+| `wix-assets-management` | Media and assets operations |
+| `wix-app-management` | App instance and plugin placement operations |
+| `wix-site-api-management` | Site-scoped operational APIs |
+| `wix-rest-articles-guidance` | Cross-cutting auth/query/troubleshooting guidance |
 | `wix-sites-management` | Site lifecycle and configuration management tasks |
 | `wix-stores-management` | Stores catalog and product management tasks |
 | `wix-bookings-management` | Booking services and staff operations |
