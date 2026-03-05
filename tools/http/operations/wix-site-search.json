@@ -1,0 +1,13 @@
+{
+  "operations": [
+    {
+      "id": "wix-site-search.search",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/v1/search",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": true,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-management/site-search/wix-site-search/search"
+    }
+  ]
+}

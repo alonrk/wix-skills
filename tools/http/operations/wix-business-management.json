@@ -17,15 +17,6 @@
       "requiredParams": [],
       "bodyRequired": false,
       "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-management/locations/list-locations"
-    },
-    {
-      "id": "wix-business-management.list-published-site-urls",
-      "method": "GET",
-      "urlTemplate": "https://www.wixapis.com/urls-server/v2/published-site-urls",
-      "authModes": ["signed_instance", "oauth", "api_key"],
-      "requiredParams": [],
-      "bodyRequired": false,
-      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-management/site-urls/published-site-urls/list-published-site-urls"
     }
   ]
 }

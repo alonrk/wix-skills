@@ -27,6 +27,8 @@ Agent Skills for Wix workflows, built from main Wix REST API documentation and d
 | `wix-business-management` | Business platform settings such as locations and site properties |
 | `wix-analytics-management` | Site analytics and reporting data retrieval |
 | `wix-email-marketing-management` | Email campaigns, sender emails, and campaign statistics |
+| `wix-site-search-management` | Site document search and search-query retrieval |
+| `wix-site-urls-management` | Published site URL discovery and inspection |
 | `wix-business-solutions-management` | Cross-vertical business solutions operations |
 | `wix-crm-management` | Contacts, labels, and CRM-centric operations |
 | `wix-assets-management` | Media and assets operations |

@@ -18,6 +18,8 @@ Operational index for Wix REST API coverage across all major domains.
 | wix-business-management | Business Management APIs | ✓ | ✓ | ✓ | [wix-business-management.md](integrations/wix-business-management.md) |
 | wix-analytics | Analytics APIs | ✓ | ✓ | ✓ | [wix-analytics.md](integrations/wix-analytics.md) |
 | wix-email-marketing | Email Marketing APIs | ✓ | ✓ | ✓ | [wix-email-marketing.md](integrations/wix-email-marketing.md) |
+| wix-site-search | Site Search APIs | ✓ | ✓ | ✓ | [wix-site-search.md](integrations/wix-site-search.md) |
+| wix-site-urls | Site URLs APIs | ✓ | ✓ | ✓ | [wix-site-urls.md](integrations/wix-site-urls.md) |
 | wix-business-solutions | Business Solutions APIs | ✓ | ✓ | ✓ | [wix-business-solutions.md](integrations/wix-business-solutions.md) |
 | wix-crm | CRM APIs | ✓ | ✓ | ✓ | [wix-crm.md](integrations/wix-crm.md) |
 | wix-assets | Assets APIs | ✓ | ✓ | ✓ | [wix-assets.md](integrations/wix-assets.md) |
@@ -41,6 +43,8 @@ Operational index for Wix REST API coverage across all major domains.
 - Business Management
 - Analytics
 - Marketing (Emails)
+- Site Search
+- Site URLs
 - Account Level
 - Site
 
@@ -57,6 +61,8 @@ Operational index for Wix REST API coverage across all major domains.
   - `tools/http/operations/wix-business-management.json`
   - `tools/http/operations/wix-analytics.json`
   - `tools/http/operations/wix-email-marketing.json`
+  - `tools/http/operations/wix-site-search.json`
+  - `tools/http/operations/wix-site-urls.json`
   - `tools/http/operations/wix-business-solutions.json`
   - `tools/http/operations/wix-crm.json`
   - `tools/http/operations/wix-assets.json`

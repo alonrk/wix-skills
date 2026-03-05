@@ -14,6 +14,8 @@ Actionable playbook for business-management APIs.
 
 - `tools/integrations/wix-analytics.md`
 - `tools/integrations/wix-email-marketing.md`
+- `tools/integrations/wix-site-search.md`
+- `tools/integrations/wix-site-urls.md`
 
 ## Operation Cards
 
@@ -37,12 +39,3 @@ node tools/http/wix-request.js --operation wix-business-management.get-installed
 node tools/http/wix-request.js --operation wix-business-management.list-locations
 ```
 
-### 3) List Published Site URLs
-
-- **Operation id**: `wix-business-management.list-published-site-urls`
-- **HTTP**: `GET https://www.wixapis.com/urls-server/v2/published-site-urls`
-- **Run**:
-
-```bash
-node tools/http/wix-request.js --operation wix-business-management.list-published-site-urls
-```

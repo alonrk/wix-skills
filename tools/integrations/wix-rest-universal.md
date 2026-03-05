@@ -14,6 +14,8 @@ Route execution to the most relevant domain integration:
 - business settings: `tools/integrations/wix-business-management.md`
 - analytics: `tools/integrations/wix-analytics.md`
 - email marketing: `tools/integrations/wix-email-marketing.md`
+- site search: `tools/integrations/wix-site-search.md`
+- site urls: `tools/integrations/wix-site-urls.md`
 - stores: `tools/integrations/wix-stores.md`
 - bookings: `tools/integrations/wix-bookings.md`
 - cms: `tools/integrations/wix-cms.md`

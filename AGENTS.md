@@ -11,6 +11,8 @@ Activate a skill when the user intent clearly matches its domain:
 - `wix-business-management`: business settings such as locations and site properties
 - `wix-analytics-management`: site analytics measurements and reporting retrieval
 - `wix-email-marketing-management`: email campaigns, sender addresses, and campaign statistics
+- `wix-site-search-management`: site document search operations
+- `wix-site-urls-management`: published site URL retrieval
 - `wix-business-solutions-management`: cross-vertical solution operations
 - `wix-crm-management`: contacts, labels, forms, and CRM-centric operations
 - `wix-assets-management`: media/asset import and retrieval operations
