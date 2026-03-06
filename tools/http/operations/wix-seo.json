@@ -1,0 +1,13 @@
+{
+  "operations": [
+    {
+      "id": "wix-seo.resolve-static-page-seo-tags",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/promote/seo/v1/resolve-static-page-seo-tags?pageName={pageName}&pageUrl={pageUrl}",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": ["pageName", "pageUrl"],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/site/viewer/seo-tags/resolve-static-page-seo-tags"
+    }
+  ]
+}

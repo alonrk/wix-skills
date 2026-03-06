@@ -40,6 +40,7 @@ description: Gathers and validates Wix account/site context before management op
 - `wix-email-marketing-management`
 - `wix-site-search-management`
 - `wix-site-urls-management`
+- `wix-seo-management`
 - `wix-business-solutions-management`
 - `wix-crm-management`
 - `wix-assets-management`
@@ -50,6 +51,7 @@ description: Gathers and validates Wix account/site context before management op
 - `wix-stores-management`
 - `wix-bookings-management`
 - `wix-cms-management`
+- `wix-blog-management`
 
 ## Integration Playbooks
 

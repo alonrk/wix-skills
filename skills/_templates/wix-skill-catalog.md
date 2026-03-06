@@ -15,6 +15,8 @@ This file tracks source-to-skill mapping before authoring or updating a skill.
 | wix-email-marketing-management | email campaign operations and sender management | https://dev.wix.com/docs/api-reference/business-management/marketing/emails | campaigns, sender emails, campaign statistics | email marketing scopes and active account |
 | wix-site-search-management | site content search operations | https://dev.wix.com/docs/api-reference/business-management/site-search/wix-site-search/search | document search, filtering, sorting, aggregations | site search read scope |
 | wix-site-urls-management | published site URL retrieval operations | https://dev.wix.com/docs/api-reference/business-management/site-urls/published-site-urls/list-published-site-urls | primary urls, multilingual urls | site urls read scope |
+| wix-seo-management | seo tag resolution operations | https://dev.wix.com/docs/api-reference/site/viewer/seo-tags/resolve-static-page-seo-tags | seo tags, meta tags, structured data | view seo settings scope |
+| wix-blog-management | blog content and taxonomy operations | https://dev.wix.com/docs/api-reference/business-solutions/blog/posts-stats/query-posts | posts, categories, tags, blog queries | blog app installed, blog read scopes |
 | wix-business-solutions-management | cross-vertical business solution tasks | https://dev.wix.com/docs/api-reference/business-solutions | stores, bookings, cms, events, plans | solution-specific app dependencies |
 | wix-crm-management | contacts and CRM workflows | https://dev.wix.com/docs/api-reference/crm | contacts, labels, communication | crm scopes |
 | wix-assets-management | media and assets operations | https://dev.wix.com/docs/api-reference/assets | files, imports, media manager | assets/media scopes |

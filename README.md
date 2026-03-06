@@ -29,6 +29,7 @@ Agent Skills for Wix workflows, built from main Wix REST API documentation and d
 | `wix-email-marketing-management` | Email campaigns, sender emails, and campaign statistics |
 | `wix-site-search-management` | Site document search and search-query retrieval |
 | `wix-site-urls-management` | Published site URL discovery and inspection |
+| `wix-seo-management` | SEO tags resolution and page-level metadata output |
 | `wix-business-solutions-management` | Cross-vertical business solutions operations |
 | `wix-crm-management` | Contacts, labels, and CRM-centric operations |
 | `wix-assets-management` | Media and assets operations |
@@ -39,6 +40,7 @@ Agent Skills for Wix workflows, built from main Wix REST API documentation and d
 | `wix-stores-management` | Stores catalog and product management tasks |
 | `wix-bookings-management` | Booking services and staff operations |
 | `wix-cms-management` | CMS schema and data item operations |
+| `wix-blog-management` | Blog posts, categories, and tags operations |
 
 ## Usage
 

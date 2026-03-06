@@ -16,6 +16,7 @@ Actionable playbook for business-management APIs.
 - `tools/integrations/wix-email-marketing.md`
 - `tools/integrations/wix-site-search.md`
 - `tools/integrations/wix-site-urls.md`
+- `tools/integrations/wix-seo.md`
 
 ## Operation Cards
 

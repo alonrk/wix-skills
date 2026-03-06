@@ -1,0 +1,49 @@
+{
+  "operations": [
+    {
+      "id": "wix-blog.list-posts",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/v3/posts",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/blog/posts-stats/list-posts"
+    },
+    {
+      "id": "wix-blog.get-post",
+      "method": "GET",
+      "urlTemplate": "https://www.wixapis.com/v3/posts/{postId}",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": ["postId"],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/blog/posts-stats/get-post"
+    },
+    {
+      "id": "wix-blog.query-posts",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/v3/posts/query",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/blog/posts-stats/query-posts"
+    },
+    {
+      "id": "wix-blog.query-categories",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/blog/v3/categories/query",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/blog/category/query-categories"
+    },
+    {
+      "id": "wix-blog.query-tags",
+      "method": "POST",
+      "urlTemplate": "https://www.wixapis.com/v3/tags/query",
+      "authModes": ["signed_instance", "oauth", "api_key"],
+      "requiredParams": [],
+      "bodyRequired": false,
+      "sourceDocUrl": "https://dev.wix.com/docs/api-reference/business-solutions/blog/tags/query-tags"
+    }
+  ]
+}

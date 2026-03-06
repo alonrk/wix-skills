@@ -16,9 +16,11 @@ Route execution to the most relevant domain integration:
 - email marketing: `tools/integrations/wix-email-marketing.md`
 - site search: `tools/integrations/wix-site-search.md`
 - site urls: `tools/integrations/wix-site-urls.md`
+- seo: `tools/integrations/wix-seo.md`
 - stores: `tools/integrations/wix-stores.md`
 - bookings: `tools/integrations/wix-bookings.md`
 - cms: `tools/integrations/wix-cms.md`
+- blog: `tools/integrations/wix-blog.md`
 - crm: `tools/integrations/wix-crm.md`
 - assets/media: `tools/integrations/wix-assets.md`
 - app scope: `tools/integrations/wix-app-management.md`

@@ -15,6 +15,7 @@ Actionable playbook for business-solutions APIs.
 - `tools/integrations/wix-stores.md`
 - `tools/integrations/wix-bookings.md`
 - `tools/integrations/wix-cms.md`
+- `tools/integrations/wix-blog.md`
 
 ## Usage Rule
 

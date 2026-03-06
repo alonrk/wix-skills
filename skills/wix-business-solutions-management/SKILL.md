@@ -28,6 +28,7 @@ description: Manages Wix business-solutions APIs across vertical products. Use w
 - `wix-stores-management`
 - `wix-bookings-management`
 - `wix-cms-management`
+- `wix-blog-management`
 
 ## Guardrails
 

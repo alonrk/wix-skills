@@ -13,6 +13,7 @@ Activate a skill when the user intent clearly matches its domain:
 - `wix-email-marketing-management`: email campaigns, sender addresses, and campaign statistics
 - `wix-site-search-management`: site document search operations
 - `wix-site-urls-management`: published site URL retrieval
+- `wix-seo-management`: SEO tags and page-level SEO metadata resolution
 - `wix-business-solutions-management`: cross-vertical solution operations
 - `wix-crm-management`: contacts, labels, forms, and CRM-centric operations
 - `wix-assets-management`: media/asset import and retrieval operations
@@ -23,6 +24,7 @@ Activate a skill when the user intent clearly matches its domain:
 - `wix-stores-management`: products, variants, categories, catalog operations
 - `wix-bookings-management`: services, staff, hours, booking setup
 - `wix-cms-management`: collections, fields, data CRUD, references
+- `wix-blog-management`: blog posts, categories, and tags operations
 - `wix-project-context`: gather missing account/site context before execution
 
 ## Required Direct REST Flow

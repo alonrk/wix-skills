@@ -20,6 +20,7 @@ Operational index for Wix REST API coverage across all major domains.
 | wix-email-marketing | Email Marketing APIs | ✓ | ✓ | ✓ | [wix-email-marketing.md](integrations/wix-email-marketing.md) |
 | wix-site-search | Site Search APIs | ✓ | ✓ | ✓ | [wix-site-search.md](integrations/wix-site-search.md) |
 | wix-site-urls | Site URLs APIs | ✓ | ✓ | ✓ | [wix-site-urls.md](integrations/wix-site-urls.md) |
+| wix-seo | SEO APIs | ✓ | ✓ | ✓ | [wix-seo.md](integrations/wix-seo.md) |
 | wix-business-solutions | Business Solutions APIs | ✓ | ✓ | ✓ | [wix-business-solutions.md](integrations/wix-business-solutions.md) |
 | wix-crm | CRM APIs | ✓ | ✓ | ✓ | [wix-crm.md](integrations/wix-crm.md) |
 | wix-assets | Assets APIs | ✓ | ✓ | ✓ | [wix-assets.md](integrations/wix-assets.md) |
@@ -29,6 +30,7 @@ Operational index for Wix REST API coverage across all major domains.
 | wix-stores | Stores operations | ✓ | ✓ | ✓ | [wix-stores.md](integrations/wix-stores.md) |
 | wix-bookings | Bookings operations | ✓ | ✓ | ✓ | [wix-bookings.md](integrations/wix-bookings.md) |
 | wix-cms | CMS operations | ✓ | ✓ | ✓ | [wix-cms.md](integrations/wix-cms.md) |
+| wix-blog | Blog operations | ✓ | ✓ | ✓ | [wix-blog.md](integrations/wix-blog.md) |
 | wix-sites | Sites operations | ✓ | ✓ | ✓ | [wix-sites.md](integrations/wix-sites.md) |
 | wix-domains | Domains operations | ✓ | ✓ | ✓ | [wix-domains.md](integrations/wix-domains.md) |
 | wix-site-properties | Site Properties operations | ✓ | ✓ | ✓ | [wix-site-properties.md](integrations/wix-site-properties.md) |
@@ -38,6 +40,7 @@ Operational index for Wix REST API coverage across all major domains.
 - Articles
 - App Management
 - Business Solutions
+- Blog
 - Assets
 - CRM
 - Business Management
@@ -45,6 +48,7 @@ Operational index for Wix REST API coverage across all major domains.
 - Marketing (Emails)
 - Site Search
 - Site URLs
+- SEO
 - Account Level
 - Site
 
@@ -63,6 +67,7 @@ Operational index for Wix REST API coverage across all major domains.
   - `tools/http/operations/wix-email-marketing.json`
   - `tools/http/operations/wix-site-search.json`
   - `tools/http/operations/wix-site-urls.json`
+  - `tools/http/operations/wix-seo.json`
   - `tools/http/operations/wix-business-solutions.json`
   - `tools/http/operations/wix-crm.json`
   - `tools/http/operations/wix-assets.json`
@@ -72,6 +77,7 @@ Operational index for Wix REST API coverage across all major domains.
   - `tools/http/operations/wix-stores.json`
   - `tools/http/operations/wix-bookings.json`
   - `tools/http/operations/wix-cms.json`
+  - `tools/http/operations/wix-blog.json`
 
 ## Selection Rules
 
